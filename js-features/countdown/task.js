@@ -25,10 +25,8 @@ my_set_interval_id = setInterval(() => {
     if (strTimer.textContent == "00:00:00") {
         clearInterval(my_set_interval_id);
         alert("Вы победили в конкурсе!!!");
-        location = "file:///D:/Remezov/python/12.%20Html/04.%20Позиционирование%20блочных%20элементов/block-elements-positioning/our-experts-section/index.html";
-
-        // const a = document.getElementsByClassName("next__link");
-        // a.click();
+        location = "https://netology.ru/"; //переход на другую страницу
+        link__download.click(); // загрузка файла
         
     }; 
 }, 100);
